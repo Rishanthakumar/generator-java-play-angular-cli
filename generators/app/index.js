@@ -1,5 +1,4 @@
 var Generator = require('yeoman-generator');
-var fs = require('fs');
 
 module.exports = class extends Generator {
     
@@ -19,17 +18,19 @@ module.exports = class extends Generator {
     }
 
     writing() {
-        this.fs.copyTpl(
+        this.fs.copy(
             this.templatePath('**/*'),
             this.destinationPath(this.appname),
-            { title: 'Templating with Yeoman' }
+            {
+                title: 'Templating with Yeomen',
+                globOptions: { dot: true }
+            }
         );
     }
 
     install() {
+        this.log('Installing NPM modules...');
         process.chdir(this.destinationPath(this.appname) + "/ui");
         this.spawnCommandSync('npm', ['i']);
-        process.chdir(this.destinationPath(this.appname));
-        this.spawnCommandSync('sbt', ['run']);
     }
 };
