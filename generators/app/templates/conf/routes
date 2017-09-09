@@ -1,0 +1,8 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# API endpoint test
+
+
+GET         /api/v1/hello-world                   controllers.ServiceController.helloWorldService()

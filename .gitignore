@@ -1,0 +1,13 @@
+
+### Project
+node_modules/
+temp/
+*.log
+*.swp
+
+### Mac
+*.DS_Store
+
+### Idea
+.idea
+
