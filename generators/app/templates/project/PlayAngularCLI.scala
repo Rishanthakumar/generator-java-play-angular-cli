@@ -27,10 +27,10 @@ object PlayAngularCLI {
         ngUICleanCommand := "",
 
         // this will get executed with compile sbt command
-        ngUIDistCommand := "ng build",
+        ngUIDistCommand := "npm run build",
 
         // this will executed with watch
-        ngUIWatchCommand := "ng serve --open",
+        ngUIWatchCommand := "npm run start",
 
         ngUIClean := {
             println("Cleaning ng UI")
