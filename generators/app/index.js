@@ -11,7 +11,7 @@ module.exports = class extends Generator {
             type : 'input',
             name : 'projectName',
             message : 'Your project name?',
-            default : this.appname
+            default : this.appname.replace(/\s/g, '')
         }]).then((answers) => {
             this.appname = answers.projectName;
         });
