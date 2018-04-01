@@ -1,6 +1,6 @@
 # Angular Java Play Generator
 
-![Angular Java Play Generator Image](/images/generator-java-play-angular-cli.png)
+![Angular Java Play Generator Image](https://github.com/Rishanthakumar/generator-java-play-angular-cli/blob/dev/images/generator-java-play-angular-cli.png)
 
 Yeoman generator for creating Angular backed by Java Play - lets you quickly set up a project following best practices.
 
@@ -38,4 +38,4 @@ sbt run
 
 ## License
 
-This software is licensed under the [MIT](/LICENSE) license
+This software is licensed under the [MIT](https://github.com/Rishanthakumar/generator-java-play-angular-cli/blob/dev/LICENSE) license
