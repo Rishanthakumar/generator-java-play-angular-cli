@@ -4,13 +4,13 @@
 
 Yeoman generator for creating Angular backed by Java Play - lets you quickly set up a project following best practices.
 
-### Prerequisites
+## Prerequisites
 
 * [Node.js](https://nodejs.org/en/)
 * [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * [SBT](https://www.scala-sbt.org/)
 
-### Usage
+## Usage
 
 Install `yo` and `generator-java-play-angular-cli`:
 
@@ -30,3 +30,12 @@ sbt run
 ````
 
 > The first time you run SBT, it may take a while to download all the dependencies it needs, but after that first run, it will download new dependencies only as needed.
+
+## Contributors
+
+[<img src="https://avatars0.githubusercontent.com/u/13392302?s=400&v=4" width="100px;"/><br /><sub>Rishanthakumar</sub>](https://github.com/Rishanthakumar)| [<img src="https://avatars0.githubusercontent.com/u/18510957?s=400&v=4" width="100px;"/><br /><sub>Saad Sahibjan</sub>](https://github.com/saadsahibjan)
+| :---: | :---: |
+
+## License
+
+This software is licensed under the [MIT](/LICENSE) license
