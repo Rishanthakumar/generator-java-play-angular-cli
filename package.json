@@ -2,6 +2,7 @@
   "name": "generator-java-play-angular-cli",
   "version": "0.0.2",
   "description": "Yeoman generator for creating Angular backed by Java Play",
+  "homepage": "https://github.com/Rishanthakumar/generator-java-play-angular-cli.git",
   "repository": "https://github.com/Rishanthakumar/generator-java-play-angular-cli.git",
   "files": [
     "generators"
