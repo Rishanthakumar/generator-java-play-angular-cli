@@ -1,12 +1,16 @@
 {
   "name": "generator-java-play-angular-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "Yeoman generator for creating Angular backed by Java Play",
   "files": [
     "generators"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "angular 5",
+    "angular-cli",
+    "java",
+    "play framework"
   ],
   "dependencies": {
     "yeoman-generator": "^1.0.0"
@@ -15,6 +19,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "contributors": [
+	"Rishanthakumar Rasarathinam <rishanthakumar@gmail.com> (https://github.com/Rishanthakumar)",
+	"Saad Sahibjan <saad.sahibjan@gmail.com> (https://github.com/saadsahibjan)"
+  ],
   "license": "ISC"
 }
